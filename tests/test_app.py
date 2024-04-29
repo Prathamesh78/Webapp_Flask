@@ -1,3 +1,11 @@
+import sys
+import os
+
+current_dir = os.getcwd()
+
+parent_dir = os.path.abspath(os.path.join(current_dir, '..'))
+sys.path.append(parent_dir)
+
 from app import app
 import pytest
 
