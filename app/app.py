@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def serve_html():
-    return send_from_directory('', 'sample.html')
+    return send_from_directory('static', 'sample.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
