@@ -1,11 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask, send_from_directory
 
 app = Flask(__name__)
 
 @app.route('/')
+def serve_html():
+    return send_from_directory('', 'sample.html')
 
-def sample():
-	return render_template("sample.html")
-
-if "__name__" == "__main__":
-	app.run(debug=True)	
+if __name__ == '__main__':
+    app.run(debug=True)
