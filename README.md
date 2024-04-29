@@ -23,16 +23,16 @@
 
    - For Windows:
      ```cmd
-     set FLASK_APP=app.py
+     set FLASK_APP=sample
      ```
 
    - For macOS/Linux:
      ```bash
-     export FLASK_APP=app.py
+     export FLASK_APP=sample
      ```
 
 2. Run the Flask application:
 
    ```bash
-   flask run
+   python -m flask run
    ```
