@@ -50,8 +50,8 @@ To set up the CI/CD pipeline for your own repository, follow these steps:
    3. Create a new Heroku app from the Heroku dashboard.
 
    4. Generate an API key on Heroku:
-    * Go to Account Settings.
-    * Under the API Key section, click on "Generate API Key" and copy the API key.
+   * Go to Account Settings.
+   * Under the API Key section, click on "Generate API Key" and copy the API key.
 
    5. Add the Heroku API key as a secret in your GitHub repository:
    * Go to your repository on GitHub.
@@ -59,8 +59,8 @@ To set up the CI/CD pipeline for your own repository, follow these steps:
    * Click on "New repository secret" and add a secret named HEROKU_API_KEY with the value of your Heroku API key.
 
    6. Configure the main.yml workflow file in the .github/workflows directory:
-    * Update the heroku_app_name variable with the name of your Heroku app.
-    * Update the heroku_email variable with the email associated with your Heroku account.
+   * Update the heroku_app_name variable with the name of your Heroku app.
+   * Update the heroku_email variable with the email associated with your Heroku account.
 
    7. Commit and push the changes to your GitHub repository.
 
