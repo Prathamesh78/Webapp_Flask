@@ -1,6 +1,6 @@
 from flask import Flask, send_from_directory
 
-app = Flask(__name__, template.folder='./templates')
+app = Flask(__name__)
 
 @app.route('/')
 def serve_html():
