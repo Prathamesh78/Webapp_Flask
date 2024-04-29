@@ -41,7 +41,7 @@
 
 ### The CI/CD pipeline is configured using GitHub Actions to automatically run tests on every push to the repository and deploy the application to Heroku if the tests pass.
 
-#### To set up the CI/CD pipeline for your own repository, follow these steps:
+### To set up the CI/CD pipeline for your own repository, follow these steps:
 
     1. Fork this repository to your GitHub account.
 
