@@ -66,4 +66,4 @@ To set up the CI/CD pipeline for your own repository, follow these steps:
 
    8. GitHub Actions will automatically run the CI/CD pipeline on every push to the repository. You can view the workflow runs in the "Actions" tab of your repository.
 
-   9. Once the pipeline is successful, your Flask application will be deployed to Heroku, and you can access it using the provided Heroku app URL.
+   9. Once the pipeline is successful, your Flask application will be deployed to Heroku, and you can access it using the provided Heroku app URL .ie. https://<app.heroku.com>/sample
