@@ -15,6 +15,6 @@ def client():
         yield client
 
 def test_home_page(client):
-    response = client.get('/sample')
+    response = client.get('/')
     assert response.status_code == 200
     assert b"<!DOCTYPE html>" in response.data
